@@ -1,5 +1,5 @@
 //
-//  Strings.c
+//  Str.c
 //  challenge
 //
 //  Created by ABEDY on 2015-11-15.

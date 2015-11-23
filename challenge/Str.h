@@ -1,13 +1,13 @@
 //
-//  Strings.h
+//  Str.h
 //  challenge
 //
 //  Created by ABEDY on 2015-11-15.
 //  Copyright © 2015 David Pickard. All rights reserved.
 //
 
-#ifndef Strings_h
-#define Strings_h
+#ifndef Str_h
+#define Str_h
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,4 +35,4 @@ unsigned int cStringCmp(char *cString, const char *str);
 
 unsigned int longestCommonSubstring(string stringA, string stringB);
 
-#endif /* Strings_h */
+#endif /* Str_h */
