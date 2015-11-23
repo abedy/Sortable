@@ -1,16 +1,16 @@
 Compile from command line using:
-gcc main.c Str.c Products.c Memory.c Listings.c -o Challenge
+gcc main.c Str.c Products.c Memory.c Listings.c -o challenge
 
-You may need to make the program executable using:
-chmod +x Challenge
 
 After compilation run the program with:
-./Challenge pathToProductsFile pathToListingsFile [pathToOutputFile]
+./challenge pathToProductsFile pathToListingsFile [pathToOutputFile]
 
 ex: ./challenge products.txt listings.txt output.txt
 
 if no output file is specified, output will be sent to stdout. (which can be redirected to a file)
 
+You may need to make the program executable using:
+chmod +x challenge
 
 Please note:
 I purposely tried to avoid making non-exact matches (not including colour).
