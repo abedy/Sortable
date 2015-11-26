@@ -1,5 +1,6 @@
-I should have written a dictionary module. Stored product entries in the dictionary using their manufacturer string as key
-(it would be nice to use the model as the key but the difficulty becomes identifying the model within the listing title).
+I should have written dictionary and list modules. 
+Stored lists of product entries, that share the same manufacturer, in the dictionary using their manufacturer string as key
+(it would be nice to use a product model based key but the difficulty becomes identifying the model within the listing title).
 I could then have looped through listings very quickly identifying potential product matches in the dictionary, 
 and then used something like the existing method to find the best match.
 
